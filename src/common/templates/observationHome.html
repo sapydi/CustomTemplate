@@ -1,0 +1,47 @@
+<div class="card list" style="margin-left:0;margin-top:0;margin-right:0;">
+
+   <div class="item item-divider" style="padding-bottom: 4px;background: #00BCD4;">
+     <h1 class="title">{{observationsCtrl.floorCode}},{{observationsCtrl.buildingName}}</h1>
+   <button class="button button-small button-dark icon ion-ios-play" ng-click="observationsCtrl.gotoStudy()" style="float:right;margin-top:-32px;">
+   <b>Start</b>
+</button>
+   </div>
+   
+   <div class="item item-text-wrap">
+		<div>
+		<article>
+				  <header>
+				    <h3><b>Some info about the Study</b></h3>
+				  </header>
+				  <br/>
+					  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.
+					  </p>
+		</article>
+				<p>
+					{{observationsCtrl.floorCode}}
+				</p>
+		</div>
+
+        <div><br/></div>
+
+		<div>
+				<article>
+						  <header>
+						    <h4><b>More info that is only available after accepting</b> <i>(to accept you need to be online)</i></h4>
+						  </header>
+						  <br/>
+		  				  <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.
+		  				  </i></p>
+		        </article>
+		</div>
+
+		 <div><br/></div>
+
+		<div ng-init="myVar = 'images/cadSample.PNG'">
+			<img ng-src="{{myVar}}">
+		</div>
+   </div>
+
+
+
+</div>

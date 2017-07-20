@@ -1,0 +1,78 @@
+<!-- <ion-modal-view id="login">
+  <ion-header-bar>
+    <h1 class="title">Login</h1>
+  </ion-header-bar>
+
+  <div id="background" class="centerFlex" style="height:100%">
+     <div class="transbox" ng-hide="hideLoginBlock">
+        <ion-content>
+                <form ng-submit="doLogin()">
+                  <div class="list">
+                    <label class="item item-input">
+                      <span class="input-label">Username</span>
+                      <input type="text" ng-model="loginData.username">
+                    </label>
+                    <label class="item item-input">
+                      <span class="input-label">Password</span>
+                      <input type="password" ng-model="loginData.password">
+                    </label>
+                    <label class="item">
+                    <button class="button button-block button-positive" type="submit">Log in</button>
+                    </label>
+                  </div>
+                </form>
+       </ion-content>
+    </div>
+  </div>>
+</ion-view> -->
+<ion-view id="login">
+<div id="background" class="centerFlex" style="height:100%">
+    <div class="transbox" ng-hide="hideLoginBlock">
+
+        <div id="login-block">
+                <div id="login-result" ng-show="result">
+                    <i class="ion-android-warning"></i>&nbsp;{{result}} 
+                </div>
+
+                <div id="domain" class="row" ng-hide="true">
+                    <div id="domainCol" class="icon icon-Login_Icon_Domain col-10">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="login-input" ng-model="domain" placeholder="Domain" />
+                    </div>
+                </div>
+
+                <div id="userName" class="row login-row">
+                    <div class="col col-10 login-row-col-icon">
+                        <div class="icon ion-person"></div>
+                    </div>
+                    <div class="col login-row-col-input">
+                        <input type="text" autofocus class="login-input" ng-model="loginData.username" placeholder="{{'username'}}" />
+                    </div>
+                </div>
+                <div id="password" class="row login-row">
+                    <div class="col col-10 login-row-col-icon">
+                        <div class="icon ion-locked"></div>
+                    </div>
+                    <div class="col login-row-col-input">
+                        <input type="password" class="login-input" ng-model="loginData.password" placeholder="{{'password'}}" />                    
+                    </div>
+                </div>
+
+                <!-- <div class="row" ng-hide="true">
+                    <div class="login-checkbox-container">               
+                        <ion-checkbox ng-change="document.getElementById('idDomain').focus();rememberMeChecked(rememberMeCheckbox.checked)" ng-model="rememberMeCheckbox.checked">{{'rememberMe'| translate}}</ion-checkbox>                
+                    </div>
+                </div> -->
+
+                <div id="loginButton" class="row">
+                   
+                        <button id="login-button" style="float:right" ng-click="doLogin()" ng-disabled="disableLoginButton">Login<ion-spinner icon="ripple" ng-show="disableLoginButton" class="pull-right spinner-calm"></ion-spinner>
+                        </button>
+                   
+                </div>
+        </div> 
+    </div>
+</div>
+</ion-view>
+

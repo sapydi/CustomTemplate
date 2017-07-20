@@ -1,0 +1,22 @@
+@media screen and (orientation:portrait) {
+  .rtime{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .rdesc{
+    width: 90%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .search .item.item-input{
+      width: 100%
+  }
+  .searchDiv{
+  	width: 89%;
+  }
+  .detailsbarMainContent{
+    padding-top: 60px;
+  }
+}

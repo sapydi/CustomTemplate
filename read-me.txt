@@ -1,0 +1,25 @@
+Before first time build it (after check out) using below commands
+===========================================================
+npm install
+ionic state restore
+bower update
+
+Build commands
+==============
+gulp build-app
+
+android
+=======
+ionic build android
+
+ios
+===
+ionic build ios
+
+
+Steps: 
+npm install
+gulp clean
+gulp vendor
+gulp compile
+ionic serve

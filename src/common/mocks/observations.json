@@ -1,0 +1,68 @@
+{
+  "observations": {
+    "observation": [
+      {
+        "id": "1",
+        "building": "Building 0001",
+        "floor": "Floor 1",
+        "plannedStartDate": "02-06-2017",
+        "plannedStartTime": "00:00",
+        "observer": "P001",
+        "actualStartTime": "",
+        "spaces": {
+          "space": [
+            {
+              "code": "MR01",
+              "type": "M"
+            },
+            {
+              "code": "MR02",
+              "type": "W"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2",
+        "building": "Building 0002",
+        "floor": "Floor 2",
+        "plannedStartDate": "25-06-2017",
+        "plannedStartTime": "06:00",
+        "observer": "P001",
+        "actualStartTime": "",
+        "spaces": {
+          "space": [
+            {
+              "code": "MR01",
+              "type": "M"
+            },
+            {
+              "code": "MR02",
+              "type": "W"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3",
+        "building": "Building 0003",
+        "floor": "Floor 3"
+      },
+      {
+        "id": "4",
+        "building": "Building 0004",
+        "floor": "Floor 4"
+      },
+      {
+        "id": "5",
+        "building": "Building 0005",
+        "floor": "Floor 5"
+      },
+      {
+        "id": "6",
+        "building": "Building 0006",
+        "floor": "Floor 6"
+      }
+    ]
+  }
+}

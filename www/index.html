@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    
+    
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+    
+	<!-- Vendor dependencies- Includes JQuery and Bia-->
+	<script src="vendor/js/vendor.min.js"></script>
+	<link href="vendor/css/vendor.min.css" rel="stylesheet">
+	
+    <!-- CSS from Engie Starts-->
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/planon.css" rel="stylesheet">
+    <link href="css/portrait.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/landscape.css">
+    <link href="css/nifty.modal.css" rel="stylesheet">
+    <!-- CSS from Engie Ends-->
+    <link href="css/ionic.css" rel="stylesheet">
+    <link href="css/unilever.css" rel="stylesheet">
+    
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above -->
+    
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+	<!-- Bia dependencies of this app implementation -->
+	
+
+    <!-- your app's js -->
+    <!--<script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>-->
+    <!-- TODO -->
+    <!--<script src="js/login-controller.js"></script>
+    <script src="js/app-controller.js"></script>
+    <script src="js/observations-controller.js"></script>
+    <script src="js/observation-controller.js"></script>
+    <script src="js/mocks/jsonServiceLocal.js"></script>
+    <script src="js/mocks/jsonServiceStub.js"></script>
+    <script src="js/userInfoService.js"></script>-->
+    <script src="js/main.js"></script>
+    <script src="js/bia/bia.communication.service.js"></script>
+	<script src="js/bia/bia.component.js"></script>
+  </head>
+
+  <body ng-app="unileverUSApp">
+    <ion-nav-view></ion-nav-view>
+  </body>
+</html>

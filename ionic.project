@@ -1,0 +1,9 @@
+{
+  "name": "UtilisationStudyApp",
+  "app_id": "",
+   "proxies": [
+    {
+      "path": "/sdk",
+      "proxyUrl": "http://192.168.88.48:18270/sdk"
+    }]
+}

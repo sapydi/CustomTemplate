@@ -1,0 +1,78 @@
+<div class="bar bar-header bar-positive" id="observation-header">
+	<button class="button ion-ios-fastforward" id="space-list-tgl"></button>
+	<h1 class="title" style="text-align:left;padding-left:30px;">{{observationCtrl.observation.building}} : {{observationCtrl.observation.floor}} [Title]</h1>
+	<div style="position:absolute;right:4px;">
+		<button class="button button-balanced icon ion-android-radio-button-on" id="space-list-right-tgl" ></button>
+		<button class="button button-energized icon ion-android-hand" ng-click="">Place on hold</button>
+		<button class="button button-assertive icon ion-android-checkmark-circle" ng-click="showPopup()">Finish</button>
+	</div>
+</div>
+<div class="bia-viewer-tms">
+<div class="side-bar-conatiner" id='space-list'>
+	<ion-content>
+          <ion-list>
+             <ion-item >
+             	Space 1.21
+            </ion-item>
+            <ion-item >
+             	Space 1.22
+            </ion-item>
+            <ion-item >
+             	Space 1.23
+            </ion-item>
+            <ion-item >
+             	Space 1.24
+            </ion-item>
+            <ion-item >
+             	Space 1.25
+            </ion-item>
+            <ion-item >
+             	Space 1.26
+            </ion-item>
+            <ion-item >
+             	Space 1.27
+            </ion-item>
+            <ion-item >
+             	Space 1.28
+            </ion-item>
+          </ion-list>
+        </ion-content>
+</div> 
+<div class="side-bar-conatiner-right" id='space-list-right'>
+	<ion-content>
+		  <p class="obs-desc" style="padding:4px 6px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit</p>
+		  <div style="padding:4px 6px;">
+		  	<label for="selected-people"><b>no.of people in the selected room</b></label>
+		  	<input type="number" id="selected-people" name="selected-people" min='0' style="border:1px solid #ccc;width:100%;height:24px;border-radius:4px;">
+		  </div>
+		  <label class="obs-list-title">Observations</label>
+          <ion-list>
+             <ion-item >
+             	Vacant
+            </ion-item>
+            <ion-item >
+             	Occupied
+            </ion-item>
+            <ion-item >
+             	Computer
+            </ion-item>
+            <ion-item >
+             	Telephone
+            </ion-item>
+            <ion-item >
+             	Meeting
+            </ion-item>
+            <ion-item >
+             	Reading
+            </ion-item>
+            <ion-item >
+             	Eating
+            </ion-item>
+            <ion-item >
+             	Other
+            </ion-item>
+          </ion-list>
+        </ion-content>
+</div>  
+ <bia-sdk-viwer class='bia-sdk-viwer-container' style='display:block;margin-top:50px;'></bia-sdk-viwer>
+</div>
